@@ -41,25 +41,55 @@ Ensuring parents are always informed and involved in their child's success:
 
 ---
 
+## 🛠️ Tech Stack
+
+### **Frontend**
+- **Framework**: [React 18](https://reactjs.org/) with [Vite](https://vitejs.dev/) for fast development.
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) & [Shadcn UI](https://ui.shadcn.com/) for a modern, responsive interface.
+- **State Management**: [React Query](https://tanstack.com/query/latest) (TanStack Query) for efficient data fetching and caching.
+- **Forms**: [React Hook Form](https://react-hook-form.com/) with [Zod](https://zod.dev/) validation.
+- **Routing**: [React Router 6](https://reactrouter.com/en/main).
+- **Animations**: [Framer Motion](https://www.framer.com/motion/) & [Three.js](https://threejs.org/) for interactive 3D elements.
+- **Charts**: [Chart.js](https://www.chartjs.org/) & [Recharts](https://recharts.org/) for data visualization.
+
+### **Backend**
+- **Runtime**: [Node.js](https://nodejs.org/) with [Express.js](https://expressjs.com/).
+- **Database**: [MongoDB](https://www.mongodb.com/) with [Mongoose](https://mongoosejs.com/) ODM.
+- **Authentication**: [JSON Web Tokens (JWT)](https://jwt.io/) with [bcryptjs](https://www.npmjs.com/package/bcryptjs) for secure password hashing.
+- **File Storage**: [Cloudinary](https://cloudinary.com/) for media management.
+- **Payments**: [Stripe API](https://stripe.com/docs/api) for secure fee processing.
+- **Security**: [Helmet](https://helmetjs.github.io/), [CORS](https://www.npmjs.com/package/cors), and [Express Rate Limit](https://www.npmjs.com/package/express-rate-limit).
+
+### **DevOps & Tools**
+- **Deployment**: [Netlify](https://www.netlify.com/) (Frontend) & [Render](https://render.com/) (Backend).
+- **Testing**: [Vitest](https://vitest.dev/) & [Playwright](https://playwright.dev/).
+- **Linting**: [ESLint](https://eslint.org/).
+
+---
+
 ## 🚀 Core Modules & Features
 
 ### 📅 Academic Management
-- **Smart Timetables**: Automated scheduling for classes and teacher rotations.
-- **Exam Coordination**: Streamlined exam scheduling, hall assignments, and result publication.
-- **Digital Library**: Comprehensive book cataloging with automated issue and return tracking.
+- **Smart Timetables**: Automated scheduling for classes and teacher rotations with real-time conflict detection.
+- **Exam Coordination**: Centralized exam scheduling, automated hall assignments, and instant digital result publication.
+- **Digital Library**: Comprehensive book cataloging with automated issue/return tracking and overdue notifications.
+- **Attendance Control**: Digital attendance marking for students and staff with detailed history logs.
+- **Grade Management**: Streamlined grading system with automated GPA calculation and performance analytics.
 
 ### 💰 Financial Management
-- **Automated Fee Billing**: Dynamic fee structures based on class and transport requirements.
-- **Secure Payments**: Integrated payment tracking with detailed billing receipts.
+- **Automated Fee Billing**: Dynamic fee structures based on class, transport, and extra-curricular requirements.
+- **Secure Payments**: Integrated Stripe payment gateway for safe, real-time fee collection and digital receipts.
+- **Financial Analytics**: Comprehensive reports on revenue, pending fees, and collection trends.
 
 ### 🚌 Logistics & Security
-- **Smart Transport**: Route management with student-to-vehicle assignment tracking.
-- **Admission Pipeline**: Manage incoming applications, document verification, and registration.
+- **Smart Transport**: Route management with student-to-vehicle assignment and real-time tracking integration.
+- **Admission Pipeline**: End-to-end digital admission process from application submission to document verification.
+- **User Governance**: Robust Role-Based Access Control (RBAC) managing Admin, Teacher, Student, and Parent permissions.
 
 ### 📢 Communication & Culture
-- **Dynamic Newsfeed**: Post school-wide or role-specific announcements.
-- **Event Highlights**: A visual gallery and event calendar to showcase school achievements.
-- **Faculty Directory**: Detailed profiles showcasing the expertise of the school's teaching staff.
+- **Dynamic Newsfeed**: Post school-wide or role-specific announcements with media support.
+- **Event Highlights**: Interactive visual gallery and school calendar to showcase achievements and upcoming events.
+- **Faculty Directory**: Detailed profiles showcasing teacher expertise and departmental hierarchies.
 
 ---
 
