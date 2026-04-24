@@ -1,7 +1,7 @@
-# TekModus School Management System
+#  School Management System
 **Empowering Education Through Seamless Digital Management**
 
-Welcome to the **TekModus School Management System**, a state-of-the-art solution designed to bridge the gap between students, parents, teachers, and school administration. This platform is built specifically for modern educational institutions that require a robust, secure, and user-friendly interface to manage daily operations, academic progress, and institutional growth.
+Welcome to the ** School Management System**, a state-of-the-art solution designed to bridge the gap between students, parents, teachers, and school administration. This platform is built specifically for modern educational institutions that require a robust, secure, and user-friendly interface to manage daily operations, academic progress, and institutional growth.
 
 ---
 
@@ -71,7 +71,7 @@ Ensuring parents are always informed and involved in their child's success:
 ---
 
 ## 📞 Support & Feedback
-For any inquiries related to the **TekModus School Management System**, please contact our development team through the **TekModus** official support channels.
+For any inquiries related to the **gaurav rai School Management System**, please contact our development team through the **gaurav rai** official support channels.
 
 ---
-*Developed with excellence by TekModus.*
+*Developed with excellence by gaurav-rai.*

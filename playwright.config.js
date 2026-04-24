@@ -1,6 +1,6 @@
-import { createTekmodusConfig } from "tekmodus-agent-playwright-config/config";
+import { createGauravRaiConfig } from "gaurav-rai-agent-playwright-config/config";
 
-export default createTekmodusConfig({
+export default createGauravRaiConfig({
   // Add your custom playwright configuration overrides here
   // Example:
   // timeout: 60000,
