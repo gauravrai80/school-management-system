@@ -84,6 +84,10 @@ const limiter = rateLimit({
 app.use(limiter);
 
 // Mount routers
+app.get('/', (req, res) => {
+  res.send('School Management System API is running...');
+});
+
 app.use('/api/auth', auth);
 app.use('/api/students', student);
 app.use('/api/teachers', teacher);
