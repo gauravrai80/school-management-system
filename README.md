@@ -18,7 +18,9 @@ The central hub for school control. Admins have oversight of the entire system:
 - **User Governance**: Create, verify, and manage accounts for all staff and students.
 - **Financial Oversight**: Monitor school revenue, fee collections, and overdue payments.
 - **Resource Control**: Manage the library, transport fleet, and school facility events.
-
+      name: 'Admin User',
+      email: 'admin@school.com',
+      password: 'password123',
 ### 🎓 Teacher Portal
 Designed to simplify classroom management and student engagement:
 - **Academic Tracking**: Manage syllabi, subjects, and class schedules.
